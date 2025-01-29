@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: IRANYekanWeb;
+  src: url(../fonts/IRANYekanWeb.eot);
+  src: url(../fonts/IRANYekanWeb.ttf);
+  src: url(../fonts/IRANYekanWeb.woff);
+  src: url(../fonts/IRANYekanWeb.woff2);
+}
+
+.enter {
+  width: 400px;
+  height: 460px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 10px;
+  border-color: black;
+  .logo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    transform: translate(105px, 55px);
+
+    svg {
+      width: 100px;
+      height: 126px;
+      flex-flow: column nowrap;
+      margin: 20px auto;
+    }
+  }
+  .text {
+    display: flex;
+    h1.text-1 {
+      width: 334px;
+      display: block;
+      box-sizing: border-box;
+      outline-style: none;
+      height: 40px;
+      font-size: 20px;
+      margin-right: 40px;
+      color: rgb(10, 10, 10);
+      outline: none;
+      font-family: IRANYekanWeb;
+      transform: translate(240px, 120px);
+    }
+    .btn-1 {
+      color: #62666d;
+      font-size: 12px;
+      font-weight: 400;
+      p.text-2 {
+        font-family: IRANYekanWeb;
+        transform: translate(86px, 160px);
+      }
+    }
+    .btn-2 {
+      color: #62666d;
+      font-size: 12px;
+      font-weight: 400;
+      justify-content: start;
+      p.text-3 {
+        font-family: IRANYekanWeb;
+        transform: translate(-15px, 185px);
+        padding: unset;
+      }
+    }
+  }
+  form {
+    input[type="text"] {
+      width: 334px;
+      height: 41px;
+      background-color: azure;
+      margin-top: -50px;
+      border-radius: 5px 5px;
+      border: unset;
+      padding-top: -40px;
+      direction: rtl;
+      transform: translate(30px, 210px);
+      font-weight: bold;
+      outline-color: crimson;
+      font-family: IRANYekanWeb;
+      font-size: 12px;
+      transition: 2000ms;
+     
+      &:hover {
+        transition-delay: 2000ms;
+      }
+    }
+    p.text-4 {
+      color: #62666d;
+      font-family: IRANYekanWeb;
+      display: flex;
+      flex-flow: column nowrap;
+      position: absolute;
+      transform: translate(200px, 220px);
+      font-size: 12px;
+
+    }
+    input[type="submit"] {
+        width: 334px;
+        height: 41px;
+        background-color: crimson;
+        margin-top: -50px;
+        border-radius: 5px 5px;
+        border: unset;
+        box-sizing: border-box;
+        padding-top: -100px;
+        transform: translate(30px , 270px);
+        font-family: IRANYekanWeb;
+        color: aliceblue;
+        padding-right: 10px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+  }
+}
